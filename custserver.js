@@ -10,6 +10,9 @@ var cust=function(req, res){
   {cust_id:4444,cust_name:"Savari",Address:"Hinjawadi",Contact_No:"9730655777"},
   {cust_id:5555,cust_name:"Kaustubh",Address:"Hinjawadi",Contact_No:"9730655666"},
    
+  {cust_id:5555,cust_name:"New Cust 1",Address:"Hinjawadi",Contact_No:"9730655669"},
+  {cust_id:5555,cust_name:"New Cust 2",Address:"Hinjawadi",Contact_No:"9730655688"},
+	{cust_id:5555,cust_name:"New Cust 3",Address:"Hinjawadi",Contact_No:"9730655543"},
   ];
   res.send(customers);
 };
