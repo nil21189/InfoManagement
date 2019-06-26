@@ -13,6 +13,10 @@ var grocery=function(req, res)
   {pid:6,pname:"Product 6",likes:7888,qty_in_stock:0},
   {pid:7,pname:"Product 7",likes:90,qty_in_stock:0},
   
+    {pid:5,pname:"Product 5",likes:7000,qty_in_stock:50},
+  {pid:6,pname:"Product 6",likes:7888,qty_in_stock:0},
+  {pid:7,pname:"Product 7",likes:90,qty_in_stock:0},
+  
    
   ];
   res.send(products);
